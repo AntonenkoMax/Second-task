@@ -1,0 +1,79 @@
+
+html {
+	line-height: $mainLineHeight;
+	font-size: $mainFontSize;
+	color: $mainFontColor;
+	height: 100%;
+
+	@media (min-width: $xlarge-bot) and (max-width: $xlarge-top) {
+		font-size: 9px;
+	}
+	@media (min-width: $large-bot) and (max-width: $large-top) {
+		font-size: 7.8px;
+	}
+	@media (min-width: $small-bot) and (max-width: $mid-top) {
+		font-size: 7px;
+	}
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: $mainFont;
+	font-size: $mainFontSize;
+	font-weight: $mainFontWeight;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
+.container {
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+
+	@media (min-width: $sm-up) { //768
+		width: $sm-container;//750
+	}
+
+	@media (min-width: $md-up) { //992
+		width: $md-container; //970
+	}
+
+	@media (min-width: $lg-up) {//1200
+		width: $lg-container;//1170
+	}
+
+	// &__sm-on-md {
+	// 	@media (min-width: $md-up) {
+	// 		width: $sm-container;
+	// 	}
+	// }
+
+	// &__md-on-lg {
+	// 	@media (min-width: $lg-up) {
+	// 		width: $md-container;
+	// 	}
+	// }
+
+	&:before,
+	&:after {
+		display: table;
+		content: " ";
+	}
+}
+
+.container-fluid {
+	width: 100%;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}

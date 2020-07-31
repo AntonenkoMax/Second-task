@@ -1,0 +1,108 @@
+
+	.portfolio__wrapper {
+		background-color: #e9d2d2;
+	}
+	.portfolio__inner {
+		padding-bottom: 7rem;
+	}
+	.portfolio__title {
+		color: #f6f6f6;
+		font-size: 16.2rem;
+		font-family: "Work Sans";
+		font-weight: "Extra Bold";
+		text-align: center;
+		&::after {
+			content: "If you do it right, it will last forever.";
+			display: block;
+			color: #575757;
+			font-family: "Work Sans";
+			font-size: 2.5rem;
+			font-weight: 400;
+			margin: auto;
+			margin-top: -7.7rem;
+			@media (min-width: $small-bot) and  (max-width: $small-top) {
+				margin-top: -5.7rem;
+			}
+		}
+		@media (min-width: $mid-bot) and  (max-width: $mid-top) {
+			font-size: 13rem;
+		}
+		@media (min-width: $small-bot) and  (max-width: $small-top) {
+			font-size: 9rem;
+			margin-top: 5rem;
+		}
+	}
+	.portfolio__content {
+		display: flex;
+		justify-content: center;
+		@media (min-width: $mid-bot) and  (max-width: $mid-top) {
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+		}
+		@media (min-width: $small-bot) and  (max-width: $small-top) {
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+		}
+	}
+	.portfolio__content__card {
+		margin: 0 1.4rem 5rem 1.4rem;
+		@media (min-width: $xlarge-bot) and  (max-width: $xlarge-top) {
+			max-width: 38rem;
+		}
+		@media (min-width: $large-bot) and  (max-width: $large-top) {
+			max-width: 27rem;
+		}
+	}
+	.portfolio__content__card__baner {
+		width: 44rem;
+		height: 36rem;
+		background-color: #e2afaf;
+		@media (min-width: $xlarge-bot) and  (max-width: $xlarge-top) {
+			width: unset;
+		}
+		@media (min-width: $large-bot) and  (max-width: $large-top) {
+			width: 27rem;
+			height: 22rem;
+		}
+	}
+	.portfolio__content__card__titel {
+		width: 20rem;
+		height: 5.8rem;
+		color: #1f2021;
+		font-size: 2rem;
+		font-family: "Work Sans";
+		font-weight: "Extra Bold";
+		padding: 2.6rem 0 0 3rem;
+		margin: 0;
+		@media (min-width: $mid-bot) and  (max-width: $mid-top) {
+			padding-top: 0.6rem;
+		}
+		@media (min-width: $small-bot) and  (max-width: $small-top) {
+			padding-top: 0.6rem;
+		}
+	}
+	.portfolio__content__card__text {
+		margin: 0;
+		padding: 1.6rem 0 0 3rem;
+		width: 39.6rem;
+		height: 4.1rem;
+		color: #4d4c4c;
+		font-family: "Work Sans";
+		font-size: 1.5rem;
+		font-weight: 400;
+		@media (min-width: $xlarge-bot) and  (max-width: $xlarge-top) {
+			width: unset;
+		}
+		@media (min-width: $large-bot) and  (max-width: $large-top) {
+			width: 24rem;
+			height: unset;
+		}
+		@media (min-width: $mid-bot) and  (max-width: $mid-top) {
+			padding-bottom: 4.6rem;
+		}
+		@media (min-width: $small-bot) and  (max-width: $small-top) {
+			padding-bottom: 4.6rem;
+		}
+	}

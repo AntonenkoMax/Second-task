@@ -1,0 +1,118 @@
+
+	.contact__wrapper {
+		background-color: #fafafa;
+	}
+	.contact__inner {
+		padding-bottom: 17rem;
+	}
+	.contact__title {
+		color: #f6f6f6;
+		font-size: 16.2rem;
+		font-family: "Work Sans";
+		font-weight: "Extra Bold";
+		margin-top: 9.2rem;
+		text-align: center;
+		&::after {
+			content: "We are born to create";
+			display: block;
+			color: #575757;
+			font-family: "Work Sans";
+			font-size: 2.5rem;
+			font-weight: 400;
+			margin: auto;
+			margin-top: -7.7rem;
+			@media (min-width: $small-bot) and  (max-width: $small-top) {
+				margin-top: -5.7rem;
+			}
+		}
+		@media (min-width: $mid-bot) and  (max-width: $mid-top) {
+			font-size: 13rem;
+		}
+		@media (min-width: $small-bot) and  (max-width: $small-top) {
+			font-size: 10rem;
+		}
+	}
+	.contact__content__text {
+		color: #2c4755;
+		font-size: 5.5rem;
+		font-family: "Work Sans";
+		font-weight: "Extra Bold";
+		margin: 0;
+		@media (min-width: $mid-bot) and  (max-width: $mid-top) {
+			font-size: 3.8rem;
+		}
+		@media (min-width: $small-bot) and  (max-width: $small-top) {
+			font-size: 2.9rem;
+		}
+	}
+	.contact__content__email {
+		color: #10cab7;
+		font-size: 5rem;
+		font-family: "Work Sans";
+		font-weight: "Extra Bold";
+		margin: 0;
+		padding: 2.9rem 0 0 4.3rem;
+		@media (min-width: $mid-bot) and  (max-width: $mid-top) {
+			font-size: 3.8rem;
+		}
+		@media (min-width: $small-bot) and  (max-width: $small-top) {
+			font-size: 2.8rem;
+		}
+	}
+	.contact__content__social {
+		display: flex;
+		margin: 0;
+		padding: 5.3rem 0 0 10.4rem;
+		height: 2.2rem;
+		@media (min-width: $mid-bot) and  (max-width: $mid-top) {
+			padding: 5.3rem 0 0 0;
+			width: 49.6rem;
+		}
+		@media (min-width: $small-bot) and  (max-width: $small-top) {
+			padding: 5.3rem 0 0 0;
+			width: unset;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+	}
+	.contact__content__social__text {
+		color: #334752;
+		font-family: "Work Sans";
+		font-size: 1.5rem;
+		margin: 0;
+	}
+	.contact__content__social__links {
+		padding-left: 4.6rem;
+		display: flex;
+		justify-content: space-between;
+		width: 37rem;
+		@media (min-width: $mid-bot) and  (max-width: $mid-top) {
+			padding-left: 4.6rem;
+			width: 37rem;
+		}
+		@media (min-width: $small-bot) and  (max-width: $small-top) {
+			padding: 0;
+			width: 37rem;
+		}
+	}
+	.contact__content__social__links__link {
+		@media (min-width: $small-bot) and  (max-width: $small-top) {
+			padding: 2rem;
+		}
+	}
+	.contact__content__social__links__link__web {
+		background: url(../../img/con-web.svg) no-repeat;
+		width: 22px;
+		height: 21px;
+	}
+	.contact__content__social__links__link__google {
+		background: url(../../img/con-google.svg) no-repeat;
+		width: 22px;
+		height: 19px;
+	}
+	.contact__content__social__links__link__twit {
+		background: url(../../img/con-twitter.svg);
+		width: 22px;
+		height: 17px;
+	}
